@@ -13,8 +13,8 @@ A web application that removes backgrounds from images using the remove.bg API.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/BrijeshMalani/bgremove.git
-cd bgremove
+git clone https://github.com/BrijeshMalani/bgremovebg.git
+cd bgremovebg
 ```
 
 2. Install dependencies:
