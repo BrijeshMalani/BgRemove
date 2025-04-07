@@ -13,8 +13,8 @@ A web application that removes backgrounds from images using the remove.bg API.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/BrijeshMalani/bgremovebg.git
-cd bgremovebg
+git clone https://github.com/yourusername/bgremove.git
+cd bgremove
 ```
 
 2. Install dependencies:
@@ -36,15 +36,15 @@ node server.js
 
 ## Deployment
 
-### Deploying to GitHub
+### Deploying to GitHub Pages
 
-1. Create a new repository on GitHub named `bgremove`
+1. Create a new repository on GitHub
 2. Push your code to GitHub:
 ```bash
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/BrijeshMalani/bgremove.git
+git remote add origin https://github.com/yourusername/bgremove.git
 git push -u origin main
 ```
 

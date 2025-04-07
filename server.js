@@ -24,7 +24,7 @@ if (!fs.existsSync(uploadsDir)) {
 const upload = multer({ 
   dest: uploadsDir,
   limits: {
-    fileSize: 10 * 1024 * 1024 // 10MB limit
+    fileSize: 50 * 1024 * 1024 // 50MB limit
   }
 });
 
@@ -55,7 +55,7 @@ app.post('/remove-bg', upload.single('image'), async (req, res) => {
       },
       responseType: 'arraybuffer',
       headers: {
-        'X-Api-Key': process.env.REMOVE_BG_API_KEY || 'rPDyq8pQxwhoRkFAnPffzTM8',
+        'X-Api-Key': 'rPDyq8pQxwhoRkFAnPffzTM8',
         'Content-Type': 'application/json'
       },
     });
