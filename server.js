@@ -55,7 +55,7 @@ app.post('/remove-bg', upload.single('image'), async (req, res) => {
       },
       responseType: 'arraybuffer',
       headers: {
-        'X-Api-Key': 'rPDyq8pQxwhoRkFAnPffzTM8',
+        'X-Api-Key': 'vQRGYcwqskohQAfHcphrm7i2',
         'Content-Type': 'application/json'
       },
     });
